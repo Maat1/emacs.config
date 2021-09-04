@@ -58,7 +58,11 @@
 (use-package org)
 (use-package haskell-mode)
 
+;;M-x org-schedule
+;;M-x org-agenda
+;;M-x org-time-stamp
+(setq org-agenda-files '("~/org/tasks.org"))
+
 ;(use-package company)
 ;(use-package lsp-mode)
-
 
